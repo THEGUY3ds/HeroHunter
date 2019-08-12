@@ -29273,7 +29273,7 @@ and limitations under the License.
         },
         SPAWN_POINT: {
             scalable: !1,
-            alwaysSee: !0,
+            alwaysSee: !1,
             tool: !0,
             scaleWithSize: !1,
             teamable: !0,
@@ -83901,7 +83901,7 @@ and limitations under the License.
             ,
             this.canSee = function(t, e, n, s, a) {
                 if (!t)
-                    return !1;
+                    return !0;
                 a = a || 0;
                 for (var o, c = i.getDistance3D(t.x, t.y, t.z, e, n, s), l = i.getDirection(t.z, t.x, s, e), p = i.getDirection(i.getDistance(t.x, t.z, e, s), n, 0, t.y), d = 1 / (c * Math.sin(l - Math.PI) * Math.cos(p)), h = 1 / (c * Math.cos(l - Math.PI) * Math.cos(p)), u = 1 / (c * Math.sin(p)), f = t.y + t.height - r.cameraHeight, m = 0; m < this.map.manager.objects.length; ++m)
                     if (!(o = this.map.manager.objects[m]).noShoot && o.active && !o.transparent) {
