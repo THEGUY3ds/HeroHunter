@@ -1,4 +1,4 @@
-OVERHAXKRUNKERHAXY v1.5
+OVERHAXKRUNKERHAXY v1.5.3
 Not released yet
 ## How to install
 
